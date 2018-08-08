@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Supervisor App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default container-fluid" style="width: 100%;">
+        <div class="container-fluid" style="width: 100%;">
+            <div class="navbar-header">
+                <a href="index.html"><img src="logo.png" class="navbar-brand logo"></a> 
+                <p class="navbar-brand title " style="color: aliceblue; font-weight: bold;">Connect - Supervisor Login</p>
+            </div>
+        </div>
+    </nav>
+    <div class="body1 container">
+        <form  action="superver.php" style="font-size: 20px;" method="POST">
+            <fieldset style="text-align: center;">
+                <h1 >Supervisor Login</h1>
+                <label style="padding-right: 30px; padding-top: 30px;" >Login ID</label><input style="color: black;" type="email"  name="usid"required placeholder="Enter your ID"><br>
+                <label style="padding-right: 10px;padding-top: 30px; padding-bottom: 20px;">Password</label><input style="color: black;" placeholder="Enter Your Password" name="pwd" type="password" required><br>
+                <hr style="width: 40%">
+            <input type="submit" value="Login" style=" background: #3f51b5; color: white;">
+            </fieldset>
+        </form>
+        <hr style="width: 40%">
+    </div>
+
+
+
+
+</body>
+
+</html>
